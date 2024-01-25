@@ -1,16 +1,15 @@
 
+
 import './App.css'
-import SimpleCounterComponent from './component/SimpleCounterComponent'
-import PureCounterComponent from './component/PureCounterComponent'
+import SimpleCounterComponent from './components/SimpleCounterComponent'
+import PureCounterComponent from './components/PureCounterComponent'
 
 function App() {
- 
 
   return (
     <>
-      <SimpleCounterComponent/>
-      <PureCounterComponent/>
-      
+     <SimpleCounterComponent/>
+     <PureCounterComponent/>
     </>
   )
 }
